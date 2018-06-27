@@ -2,7 +2,7 @@
 
 html {
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
+  font-size: 32px;
 }
 header {
   width: 100%;
@@ -19,7 +19,6 @@ header .content {
 
 header .logo {
   flex: 1;
-  height: 60px;
 }
 
 header nav ul {
@@ -27,15 +26,18 @@ header nav ul {
 }
 
 nav li {
-  padding-left: 3.5rem;
+  padding-left: 2rem;
+  list-style-type: none;
+  color: black;
 }
 
 nav a {
-
+  color: black;
 }
 
 header img {
  height: 32px;
+ width: 32px;
 }
 
 header .mobile {
@@ -71,7 +73,7 @@ header .mobile {
   }
 }
 .banner {
-  background-color: grey;
+  background-color: darkgrey;
   width: 100%;
 }
 .banner-container {
@@ -85,5 +87,8 @@ header .mobile {
   margin: 32px 24px;
 }
 .banner-containeer h1 {
-
+  font-size: 3rem;
+}
+.button{
+  background-color: grey;
 }
