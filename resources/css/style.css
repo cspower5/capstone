@@ -5,11 +5,8 @@ html {
   font-size: 16px;
 }
 header {
-  position: fixed;
-  z-index: 100;
   width: 100%;
   height: 64px;
-  border-bottom: solid 1px #c6c1c1;
   background-color: white;
 }
 
@@ -17,7 +14,7 @@ header {
 header .content {
   display: flex;
   align-items: center;
-  padding: 1.875rem;
+  padding: 24px;
 }
 
 header .logo {
@@ -39,9 +36,8 @@ nav a {
   color: #4a4a4a;
 }
 
-header .icon {
-  width: 1rem;
-  padding-left: .75rem;
+header img {
+  height: 32px;
 }
 
 header .mobile {
@@ -75,4 +71,16 @@ header .mobile {
     line-height: 1.6;
     color: white;
   }
+}
+.banner {
+  background-color: grey;
+  width: 100%;
+}
+.banner-container {
+
+}
+.banner-container img{
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 32px 24px;
 }
