@@ -33,6 +33,11 @@ nav li {
 
 nav a {
   color: black;
+  font-size: 0.75rem;
+}
+
+header a {
+  color: black;
 }
 
 header img {
@@ -65,12 +70,12 @@ header .mobile {
   header .mobile li {
     padding: 0;
   }
-  header .mobile .button {
+  /*header .mobile .button {
     padding: .1875rem .5rem;
     background-color: #9dc20b;
     line-height: 1.6;
     color: white;
-  }
+  }*/
 }
 .banner {
   background-color: darkgrey;
@@ -85,10 +90,25 @@ header .mobile {
   background-size: contain;
   background-repeat: no-repeat;
   margin: 32px 24px;
+  width: 60%;
 }
-.banner-containeer h1 {
-  font-size: 3rem;
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.text h1 {
+  font-size: 2rem;
+}
+
+.text h2 {
+  font-size: 1.25rem;
 }
 .button{
   background-color: grey;
+  width: 80%;
+}
+
+.button h1 {
+  text-align: center;
 }
