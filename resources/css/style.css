@@ -70,12 +70,12 @@ header .mobile {
   header .mobile li {
     padding: 0;
   }
-  /*header .mobile .button {
+  header .mobile .button {
     padding: .1875rem .5rem;
     background-color: #9dc20b;
     line-height: 1.6;
     color: white;
-  }*/
+  }
 }
 .banner {
   background-color: darkgrey;
